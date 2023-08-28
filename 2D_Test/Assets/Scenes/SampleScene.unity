@@ -1443,6 +1443,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1472911423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7277364434476806341, guid: d90add4e84434974bb53527134864b3c, type: 3}
+  m_PrefabInstance: {fileID: 1718576613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1472911424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472911423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5310754cc19d70c43b3e0c411e3aaa43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1472911426 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7277364434476806336, guid: d90add4e84434974bb53527134864b3c, type: 3}
+  m_PrefabInstance: {fileID: 1718576613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1718576613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1450,6 +1472,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1708608586433788770, guid: d90add4e84434974bb53527134864b3c, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1472911426}
+    - target: {fileID: 1708608586433788770, guid: d90add4e84434974bb53527134864b3c, type: 3}
+      propertyPath: jumpForce
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7277364434476806336, guid: d90add4e84434974bb53527134864b3c, type: 3}
       propertyPath: m_Controller
       value: 
@@ -1523,7 +1553,7 @@ GameObject:
   - component: {fileID: 2136821837}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
